@@ -17,7 +17,7 @@ module Bitfinex
     include Bitfinex::HistoricalDataClient
     include Bitfinex::MarginFundingClient
     include Bitfinex::WalletClient
+    include Bitfinex::BttfClient
     include Bitfinex::Configurable
-    include Bitfinex::BttfIntegration
   end
 end

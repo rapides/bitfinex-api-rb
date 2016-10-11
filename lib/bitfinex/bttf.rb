@@ -1,5 +1,5 @@
 module Bitfinex
-  module BttfIntegration
+  module BttfClient
 
     # Transfer money between BF's BFX wallet and selected user's BFX wallet
     #
