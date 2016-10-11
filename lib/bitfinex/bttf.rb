@@ -11,7 +11,7 @@ module Bitfinex
     def bttf_pay(amount, bfx_email)
       params = {
         amount:    amount.to_s,
-        bfx_email: bfx_email
+        dst_email: bfx_email
       }
       authenticated_post('bttf_pay', params: params).body
     end
