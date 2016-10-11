@@ -22,6 +22,7 @@ require 'bitfinex/orders'
 require 'bitfinex/wallet'
 require 'bitfinex/positions'
 require 'bitfinex/historical_data'
+require 'bitfinex/bttf_integration'
 require 'bitfinex/margin_funding'
 require 'bitfinex/client'
 
